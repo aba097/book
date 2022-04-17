@@ -4,6 +4,7 @@
 //
 //  Created by 相場智也 on 2021/09/01.
 //
+//  本を管理する画面のContoroller
 
 import UIKit
 
@@ -125,6 +126,7 @@ class manageViewController: UIViewController, UICollectionViewDataSource, UIColl
         reload()
     }
     
+    //下すクロールすると更新する
     @objc func refresh(){
         reload()
         
